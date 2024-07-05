@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="parte2">
+
+
+
+            
+            
+            <div class="allCards">
+                
+                <div class="card"> 
+                    <h4>Entradas</h4>
+                    <span id="entradasDisplay">R$:00.00</span>
+                </div>
+                
+                
+                <div class="card">
+                    <h4>Saidas</h4>
+                    <span id="saidaDisplay">R$:00.00</span>
+                </div>
+                <div class="card">  
+                    <h4>Saldo</h4>
+                    <span id="saldoDisplay">R$:00.00</span>
+                </div>
+                
+            </div>
+            <div class="teste">
+
+                <div class="allInputs">
+                    
+                    <p>Descrição</p>
+                    <input id="descricao" type="text" placeholder="Ex: conta de água">
+                    
+                    <p>Valor</p>
+                    <input id="valor" type="number" placeholder="Ex: 53.00">
+                    
+                    <input id="entradaopcao" name="selecionar" type="radio">
+                    <label for="entradaopcao" >Entrada</label>
+                    
+                    <input id="saidaOpacao" name="selecionar" type="radio">
+                    <label for="saidaOpacao">Saida</label>
+                    
+                    <button id="btn-add">Adicionar</button>
+                </div>
+                
+                
+                <div class="allGrafico">
+                    <h2>Gráfico</h2>
+                    <p class="grafico-p">Informe os valores para gerar o gráfico.</p>
+                    <canvas id="grafico"></canvas>
+                </div>
+                
+            </div>
+            
+            
+            <div class="divTable">
+                <h1 class="tituloHistorico">Histórico de Transações</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Descrição</th>
+                            <th>Valor</th>
+                            <th>Tipo</th>
+                            <th>Ação</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabelaTransacoes">
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+/* Cartoes */
+.allCards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    /* border: 3px solid black; */
+    cursor: pointer;
+}
+
+.card {
+    background-color: #fff;
+    /* padding: 20px; */
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* border: 1px solid blueviolet; */
+    flex-direction: column;
+}
+
+
+
+h4 {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    text-align: center;
+    
+}
+
+span {
+    font-size: 20px;
+    text-align: center;
+    /* border: 1px solid blueviolet; */
+    display:block;
+}
+
+/* inputs */
+.allInputs {
+    background-color: #d3d3d3;
+    width: 50%;
+    
+}
+
+
+
+
+
+/* grafico */
+
+#grafico {
+    max-width: 700px;
+    max-height: 500px;
+    min-width: 600px;
+    min-height: 300px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.teste {
+    display: flex;
+}
+
+.grafico-p {
+    text-align: center;
+    align-items: center;
+    background-color: #ff0000;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 22%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+/* Lista */
+
+#lista {
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.entrada-text {
+    color: green;
+}
+
+.saida-text {
+    color: red;
+}
+
+
+/* tabela */
+
+
+.divTable table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px; 
+}
+
+.divTable table thead th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #ddd
+}
+
+.divTable table tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.divTable table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.divTable table tbody td button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff4d4d;
+    color: white;
+    cursor: pointer;
+}
+
+
